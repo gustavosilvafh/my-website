@@ -10,7 +10,15 @@ export const MainBox = ({ children }: MainBoxProps) => {
 
 
     return (
-        <Box bg={bgColor} color={color} transition="all 0.3s" p="2rem" my={8} borderRadius={40} position="relative" minH={"50vh"}>
+        <Box bg={bgColor}
+            color={color}
+            transition="all 0.3s"
+            p="2rem"
+            my={8}
+            borderRadius={40}
+            position="relative"
+            minH={"50vh"}>
+
             {children}
         </Box>
     )
