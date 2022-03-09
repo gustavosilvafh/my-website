@@ -1,11 +1,9 @@
 import { Box, Button, Flex, Image, Text, useColorModeValue } from "@chakra-ui/react"
 import ReactTypingEffect from 'react-typing-effect';
-import { useLocation, Link } from "react-router-dom";
 
 export const MainContent = () => {
     const borderColor = useColorModeValue("#444", "#eee")
     const boxShadow = useColorModeValue("rgb(0 0 0 / 80%)", "rgb(0 0 0 / 25%)")
-    const location = useLocation()
 
     return (
         <Flex justify="space-around" py={20} width="100%" alignItems={"center"}>
