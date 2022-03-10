@@ -7,7 +7,7 @@ export const Header = () => {
                 <Avatar name="Gustavo" bg={"#007ced"} fontWeight={700} />
                 <Text fontSize={24} display="flex" gap={2}><Text fontWeight={700}>Gustavo</Text>Silva</Text>
             </Flex>
-            <Flex gap={6}>
+            <Flex gap={6} display={["none", "none", "inherit"]}>
                 <Box transition="all 0.2s" _hover={{ transform: "scale(1.1)" }}>
                     Sobre mim
                 </Box>
